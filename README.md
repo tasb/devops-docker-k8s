@@ -67,7 +67,10 @@ You may navigate for each one individually or you may follow the sequence starti
 
 Get access to the content used to share Kubernetes concepts during sessions.
 
-- Module #1. [Introduction to containers](slides/Module01.pdf)
+1. [Introduction to containers](slides/Session01.pdf)
+2. [Dockerfile and Tags](slides/Session02.pdf)
+3. [Persistence in containers](slides/Session03.pdf)
+4. [Docker compose](slides/Session04.pdf)
 
 ## Feedback
 

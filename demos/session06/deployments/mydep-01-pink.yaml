@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mydep
+  annotations:
+    kubernetes.io/change-cause: "Change to pink"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: workload-1
+  template:
+    metadata:
+      labels:
+        app: workload-1
+        color: pink
+    spec:
+      containers:
+        - name: workload
+          image: nginx:1.18
+          ports:
+            - containerPort: 80
