@@ -1,0 +1,9 @@
+docker run -d -p 8080:80 tutum/wordpress
+
+docker run -d -p 8080:80 tutum/wordpress
+docker run -d -p 8090:80 tutum/wordpress
+docker run -d -P --name wordpress tutum/wordpress
+
+docker ps
+docker images
+

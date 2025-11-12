@@ -1,0 +1,11 @@
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/echo-api
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/appsettings.Development.json
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/appsettings.json
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/echo-api.dll
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/echo-api.deps.json
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/echo-api.runtimeconfig.json
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/echo-api.pdb
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/Microsoft.OpenApi.dll
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/tiagobernardo/work/training/devops-docker-k8s/demos/session02/echo-api/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
