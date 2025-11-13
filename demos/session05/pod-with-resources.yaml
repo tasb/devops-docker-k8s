@@ -12,5 +12,4 @@ spec:
     args:
     - -cpus
     - "1"
-  nodeSelector:
-    kubernetes.io/arch: amd64
+

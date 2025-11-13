@@ -89,7 +89,7 @@ On `STATUS` column you need to have `RUNNING` value.
 Now let's interact with our website.
 
 ```bash
-kubectl port-forward my-simple-site 8080:80
+kubectl port-forward my-simple-site 8080:80 --address='0.0.0.0'
 ```
 
 Navigate to <http://localhost:8080> to check that your website is working properly.
@@ -138,7 +138,7 @@ You should see `Running` on Status column on returned list.
 Now it's time to test our pod.
 
 ```bash
- kubectl port-forward my-simple-website 8080:80
+ kubectl port-forward my-simple-website 8080:80 --address='0.0.0.0'
 ```
 
 Navigate to <http://localhost:8080> to check that your website is working properly.
@@ -164,7 +164,7 @@ You should see `Running` on Status column on returned list.
 Now let's interact with our new website.
 
 ```bash
-kubectl port-forward my-simple-website 8080:80
+kubectl port-forward my-simple-website 8080:80 --address='0.0.0.0'
 ```
 
 Navigate to <http://localhost:8080> to check that your website is working properly.
@@ -231,7 +231,7 @@ spec:
           cpu: 500m
           memory: "500M"
     - name: azure-vote-front
-      image: mcr.microsoft.com/azuredocs/azure-vote-front:v1
+      image: tasb/azure-vote-front:v1
       ports:
         - containerPort: 80
       env:
@@ -304,7 +304,7 @@ Take some time to look into all the details from this pod.
 Then you need to make a port forwarding to have access to this website.
 
 ```bash
-kubectl port-forward vote-app 8080:80
+kubectl port-forward vote-app 8080:80 --address='0.0.0.0'
 ```
 
 Now it's time to navigate to <http://localhost:8080> and have access to voting app website.
@@ -370,7 +370,7 @@ You can see that the name of the pod is exactly the same that the previous one t
 Let's try to have access to this webapp.
 
 ```bash
-kubectl port-forward vote-app -n my-ns 9000:80
+kubectl port-forward vote-app -n my-ns 9000:80 --address='0.0.0.0'
 ```
 
 Now it's time to navigate to <http://localhost:9000> and have access to voting app website.
