@@ -217,14 +217,14 @@ spec:
     http:
       paths:
       - path: /(.*)
-        pathType: Prefix
+        pathType: ImplementationSpecific
         backend:
           service:
             name: echo-webapp-svc
             port:
               number: 9000
       - path: /api/(.*)
-        pathType: Prefix
+        pathType: ImplementationSpecific
         backend:
           service:
             name: echo-api-svc
