@@ -15,8 +15,7 @@ spec:
       containers:
         - name: redis
           image: redis
-          ports:
-            - containerPort: 80
+          resources: {}
           volumeMounts:
           - name: tempvol
             mountPath: /share
@@ -24,6 +23,7 @@ spec:
             mountPath: /empty
         - name: nginx
           image: nginx:1.17
+          resources: {}
           ports:
             - containerPort: 80
           volumeMounts:
@@ -39,7 +39,7 @@ spec:
           # medium: Memory
       - name: hostname
         hostPath:
-          path: /etc/hostname
+          path: /etc/hosts
           type: File
       - name: emptyfolder
         hostPath:

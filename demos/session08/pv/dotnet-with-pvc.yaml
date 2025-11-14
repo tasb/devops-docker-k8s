@@ -14,11 +14,12 @@ spec:
     spec:
       containers:
       - name: sample
-        image: mcr.microsoft.com/dotnet/samples:aspnetapp
+        image: nginx
+        resources: {}
         ports:
         - containerPort: 80
         volumeMounts:
-          - mountPath: "/share"
+          - mountPath: "/data"
             name: my-storage          
       volumes:
         - name: my-storage
