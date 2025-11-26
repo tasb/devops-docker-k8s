@@ -71,6 +71,7 @@ Get access to the content used to share Kubernetes concepts during sessions.
 2. [Dockerfile and Tags](slides/Session02.pdf)
 3. [Persistence in containers](slides/Session03.pdf)
 4. [Docker compose](slides/Session04.pdf)
+5. [Introduction to Kubernetes](slides/Session05.pdf)
 
 ## Feedback
 
